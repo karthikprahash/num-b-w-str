@@ -1,0 +1,8 @@
+# num-b-w-str
+i=input()
+o=[]
+for x in (i):
+    if x.isnumeric():
+        o.append(x)
+print(''.join(o))
+   
